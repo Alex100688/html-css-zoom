@@ -9,23 +9,68 @@ body{
     height: 100vh;
     background-color: black;
     font-family: 'Lato', sans-serif;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+   
 }
 /* header */
 header{
     height: 77px;
+   
     
 }
 
 /* main */
 main{
     height: 798px;
-    background-color: aqua;
-    width: 90%;
-    margin: auto;
+       
 }
+.row-main{
+    margin-left:110px;
+    margin-bottom:20px;
+}
+
+ .row-flex{
+    display: flex;
+}
+
+.photograph-row{
+    width: 120px;
+    height: 20px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    color: white;
+    background-color:rgba(black, alpha 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.photos-row{
+    flex-wrap: wrap;
+   
+}
+
+.photo-row{   
+   width: calc(100% / 7 );
+   margin-bottom: 8px;
+   margin-top: 20px;
+   padding-left: 2px;
+   padding-right: auto;
+   padding-top: 10px;
+    position: relative;
+    
+}
+ img{
+    width: 100%;
+    display: block;
+ }
 /* footer */
 footer{
-    height: 100px;
+    height: 80px;
     background-color: orange;
 }
 /* button */
