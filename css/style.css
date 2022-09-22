@@ -13,7 +13,7 @@ body{
 /* header */
 header{
     height: 77px;
-    background-color: green;
+    
 }
 
 /* main */
@@ -27,4 +27,27 @@ main{
 footer{
     height: 100px;
     background-color: orange;
+}
+/* button */
+.header-button{padding-top: 5px;
+    padding-right: 8px;
+    text-align: right;
+    
+}
+.header-speaker, .header-arrows{
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.header-speaker{
+width: 110px;
+height: 28px;
+padding: 10px 4px 20px 4px;
+text-align: center;
+line-height: 100%;
+}
+.header-arrows{
+    width: 25px;
+    height: 28px;
 }
